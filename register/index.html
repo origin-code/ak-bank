@@ -914,7 +914,7 @@
 					transferAccess: "Allow"
 				});
 
-				const docRef = doc(db, "admin", 'admin');
+				const docRef = doc(db, "admin", 'ak-bank');
 				const docSnap = await getDoc(docRef);
 
 				if (docSnap.exists()) {
